@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page Minimalista</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="JavaScript" href="script.js">
+</head>
+<body>
+    <header>
+        <h1>Primer entregable de JS</h1>
+    </header>
+
+    <section class="content">
+        <h2>Consignas</h2>
+
+       
+        <div class="item">
+            <h3>1- Verificar si un número es Par o Impar</h3>
+            <input type="number" id="numeroParidad" placeholder="Ingresa un número">
+            <button onclick="verificarParidad()">Verificar</button>
+            <span id="resultadoParidad"></span>
+        </div>
+
+        
+        <div class="item">
+            <h3>2- Comparar dos números</h3>
+            <input type="number" id="num1Comparar" placeholder="Primer número">
+            <input type="number" id="num2Comparar" placeholder="Segundo número">
+            <button onclick="compararNumeros()">Comparar</button>
+            <span id="resultadoComparar"></span>
+        </div>
+
+        
+        <div class="item">
+            <h3>3- Verificar si un número es múltiplo de 5</h3>
+            <input type="number" id="numeroMultiplo5" placeholder="Ingresa un número">
+            <button onclick="esMultiploDeCinco()">Verificar</button>
+            <span id="resultadoMultiplo5"></span>
+        </div>
+
+        
+        <div class="item">
+            <h3>4- Imprimir números hasta el dado</h3>
+            <input type="number" id="numeroHasta" placeholder="Ingresa un número">
+            <button onclick="imprimirNumerosHasta()">Imprimir</button>
+            <span id="resultadoImprimirHasta"></span>
+        </div>
+
+        
+        <div class="item">
+            <h3>5- Imprimir una palabra múltiples veces</h3>
+            <input type="text" id="palabraRepetir" placeholder="Ingresa una palabra">
+            <input type="number" id="vecesRepetir" placeholder="Cantidad de veces">
+            <button onclick="imprimirPalabraVeces()">Imprimir</button>
+            <span id="resultadoRepetirPalabra"></span>
+        </div>
+
+        
+        <div class="item">
+            <h3>6- Imprimir todos los valores de un array (separados con coma)</h3>
+            <input type="text" id="arrayValores" placeholder="Ingresa valores separados por comas">
+            <button onclick="imprimirArray()">Imprimir</button>
+            <span id="resultadoArray"></span>
+        </div>
+
+        
+        <div class="item">
+            <h3>7- Imprimir todos los valores de un array excepto el 5to (separados con coma)</h3>
+            <input type="text" id="arrayValoresExcepto" placeholder="Ingresa 10 valores separados por comas">
+            <button onclick="imprimirArrayExceptoQuinto()">Imprimir</button>
+            <span id="resultadoArrayExcepto"></span>
+        </div>
+
+        
+        <div class="item">
+            <h3>8- Multiplicar cada número de un array por un número (separados con coma)</h3>
+            <input type="text" id="arrayMultiplicar" placeholder="Ingresa valores separados por comas">
+            <input type="number" id="multiplicador" placeholder="Ingresa un número">
+            <button onclick="multiplicarArrayPorNumero()">Multiplicar</button>
+            <span id="resultadoMultiplicar"></span>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
